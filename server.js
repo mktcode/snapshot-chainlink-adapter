@@ -2,7 +2,7 @@
 const express = require('express')
 const { ProposalResultsAdapter } = require('./adapter')
 const app = express()
-const port = process.env.PORT || 3003
+const port = process.env.PORT || 3000
 
 app.use(express.json())
 
