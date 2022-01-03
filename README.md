@@ -9,6 +9,10 @@ npm ci
 npm run server
 ```
 
+```shell
+curl --header "Content-Type: application/json"   --request POST --data '{"requestId":"1","data":{"proposalId":"abc"}}' http://localhost:3000
+```
+
 # Use function
 
 ```shell
